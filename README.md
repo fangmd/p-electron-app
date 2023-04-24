@@ -33,3 +33,6 @@ createRoot(document.getElementById("root")!).render(<App />)
 # renderer.ts
 import './app';
 ```
+
+
+
