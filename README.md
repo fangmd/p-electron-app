@@ -15,7 +15,7 @@ npm init electron-app@latest my-new-app -- --template=webpack-typescript
 
 ```
 pnpm add react react-dom
-pnpm add --dev @types/react @types/react-dom
+pnpm add -D @types/react @types/react-dom
 ```
 
 ```
