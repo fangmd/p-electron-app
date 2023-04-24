@@ -1,12 +1,12 @@
 elector
 
-- [项目创建](https://www.electronforge.io/)
+## [项目创建](https://www.electronforge.io/)
 
 ```
 npm init electron-app@latest my-new-app -- --template=webpack-typescript
 ```
 
-- [添加 react 支持](https://www.electronforge.io/guides/framework-integration/react-with-typescript)
+## [添加 react 支持](https://www.electronforge.io/guides/framework-integration/react-with-typescript)
 
 ```
 # tsconfig.json
