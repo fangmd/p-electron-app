@@ -1,5 +1,7 @@
 elector
 
+react + typescript + recoil + less
+
 ## [项目创建](https://www.electronforge.io/)
 
 ```
