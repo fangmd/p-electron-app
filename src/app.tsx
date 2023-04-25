@@ -1,9 +1,9 @@
-import { createRoot } from "react-dom/client"
-import { HashRouter, Route, Routes } from "react-router-dom"
-import { HomePage } from "./pages/Home"
-import { MinePage } from "./pages/Mine"
-import { ErrorPage } from "./pages/Error"
-import { RecoilRoot } from "recoil"
+import { createRoot } from 'react-dom/client'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import { HomePage } from './pages/Home'
+import { MinePage } from './pages/Mine'
+import { ErrorPage } from './pages/Error'
+import { RecoilRoot } from 'recoil'
 
 const App: React.FC = () => {
   return (
@@ -27,4 +27,4 @@ const App: React.FC = () => {
   )
 }
 
-createRoot(document.getElementById("root")!).render(<App />)
+createRoot(document.getElementById('root')!).render(<App />)

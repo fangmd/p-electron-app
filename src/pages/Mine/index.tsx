@@ -1,5 +1,5 @@
-import { useRecoilValue } from "recoil"
-import { userAtom } from "../../state/user/state"
+import { useRecoilValue } from 'recoil'
+import { userAtom } from '../../state/user/state'
 
 export const MinePage: React.FC = () => {
   const user = useRecoilValue(userAtom)
