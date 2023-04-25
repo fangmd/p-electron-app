@@ -1,8 +1,8 @@
-import { useRecoilValue } from "recoil"
-import { userAtom } from "../../state/user/state"
-import { useChangeUserName } from "@/state/user/hooks"
-import PNG from "@/assets/img/D.png"
-import "./index.less"
+import { useRecoilValue } from 'recoil'
+import { userAtom } from '../../state/user/state'
+import { useChangeUserName } from '@/state/user/hooks'
+import PNG from '@/assets/img/D.png'
+import './index.less'
 
 export const HomePage: React.FC = () => {
   const changeUserNameInner = useChangeUserName()
