@@ -13,14 +13,21 @@
     "plugin:import/typescript"
   ],
   "parser": "@typescript-eslint/parser",
-  "rules": {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": [
-      "warn",
-      {
-        "additionalHooks": "(useRecoilCallback|useRecoilTransaction_UNSTABLE)"
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
+    },
+    "import/resolver": {
+      "typescript": {
+        "alwaysTryTypes": true,
+        "project": "./tsconfig.json"
       }
-    ],
+    }
+  },
+  "rules": {
     "react/prop-types": "off",
     "@typescript-eslint/no-explicit-any": "off"
   }
