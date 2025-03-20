@@ -20,6 +20,8 @@ export const HomePage: React.FC = () => {
       <div className="img"></div>
       <img src={PNG} />
 
+      <div className="text-3xl text-red-500">tailwindcss</div>
+
       <button
         onClick={() => {
           changeUserNameInner(1212)
